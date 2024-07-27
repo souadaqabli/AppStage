@@ -1,0 +1,16 @@
+# Fichiers de configuration sensibles
+config.php
+
+# Fichiers de log
+*.log
+
+# Dossier des dépendances Composer
+vendor/
+
+# Fichiers temporaires
+*.tmp
+*.bak
+*.cache
+
+# Environnements de développement spécifiques
+xampp/

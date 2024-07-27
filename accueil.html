@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestion de votre entreprise simplifiée</title>
+    <style>
+        /* code CSS ici */
+
+        body {
+            font-family: Calibri, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        
+        .logo {
+            width: 10px;
+            height: 10px;
+            margin: 10px;
+        }
+        .logo img {
+        width: 80px; /* par exemple */
+        height: 80px; /* par exemple */
+        }
+        h1 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        
+        .presentation {
+            background-color: #f7f7f7;
+            padding: 20px;
+        }
+        
+        .avantages {
+            background-color: #fff;
+            padding: 10px;
+        }
+        
+        .avantages ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        
+        .avantages li {
+            padding: 10px;
+            border-bottom: 1px solid #ccc;
+        }
+        
+        .avantages li:last-child {
+            border-bottom: none;
+        }
+        
+        .appel-a-laction {
+            background-color: #fff;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        
+        .btn-connexion,.btn-inscription {
+            background-color: #4CAF50;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        
+        .btn-connexion:hover,.btn-inscription:hover {
+            background-color: #4CAF50;
+        }
+        
+        
+        
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            clear: both;
+        }
+    </style>
+
+</head>
+<body>
+    <!-- code HTML ici -->
+    <header>
+        <div class="logo">
+            <img src="image/logo_tgr.png" alt="Logo de l'application">
+        </div>
+        <h1>Gestion des certificats Barid E-sign</h1>
+        <p>Simplifiez le processus et optimisez votre performance</p>
+    </header>
+    <main>
+        <section class="presentation">
+            <h2>Présentation de l'application</h2>
+            <p>L'application de gestion vous permet de simplifier vos processus, de réduire les coûts et d'améliorer la productivité.</p>
+        </section>
+        <section class="avantages">
+            <h2>Avantages clés</h2>
+            <ul>
+                <li>Amélioration de la productivité</li>
+                <li>Réduction du temps</li>
+                <li>Simplification des tâches</li>
+                <li>Traçabilité</li>
+            </ul>
+        </section>
+        <section class="appel-a-laction">
+            <button class="btn-connexion">Se connecter</button>
+            <button class="btn-inscription">S'inscrire</button>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 - Tous droits réservés</p>
+    </footer>
+
+    <script>
+        // Gestion des événements de clic sur les boutons
+        document.addEventListener("DOMContentLoaded", function() {
+            const btnConnexion = document.querySelector(".btn-connexion");
+            const btnInscription = document.querySelector(".btn-inscription");
+    
+            btnConnexion.addEventListener("click", function() {
+                // Redirection vers la page login.php
+                location.href = "login.php";
+            });
+    
+            btnInscription.addEventListener("click", function() {
+                // Redirection vers la page login.php
+                location.href = "register.php";
+            });
+        });
+    </script>
+</body>
+</html>
